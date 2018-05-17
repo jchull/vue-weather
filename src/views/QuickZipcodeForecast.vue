@@ -24,13 +24,16 @@
   import StationService from '@/services/station.js';
 
   export default {
-    name: 'QuickZipCodeForecast', components: {
+    name: 'QuickZipCodeForecast',
+    components: {
       Forecast
-    }, data() {
+    },
+    data() {
       return {
         zipcode: undefined, station: undefined
       };
-    }, methods: {
+    },
+    methods: {
       clear() {
         this.zipcode = undefined;
         this.station = undefined;
