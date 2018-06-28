@@ -11,6 +11,6 @@ You must obtain a free key from //www.wunderground.com/weather/api/
 
 Create a .env.local file, using .env as a template
 
-`npm start`
+`npm serve`
 
 ![Screenshot](vue-weather.png "Screenshot")
